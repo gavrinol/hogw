@@ -31,7 +31,7 @@ public class FacultyController {
     }
 
     @PutMapping
-    public Faculty read(@PathVariable("id") Faculty faculty) {
+    public Faculty update(@PathVariable("id") Faculty faculty) {
         return  facultyService.update(faculty);
     }
 
